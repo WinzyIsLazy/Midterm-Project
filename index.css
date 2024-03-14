@@ -1,0 +1,247 @@
+body{
+    font-family:Lora;
+    font-weight:300;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black ;
+    margin-bottom:2px;
+    position: sticky;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1;
+}
+
+#logo{
+    width:130px;
+    margin:auto;
+    cursor: pointer;
+}
+
+#text{
+    font-family: Roboto;
+    color:rgb(226, 210, 118);
+    opacity: 0.6;
+    font-size:15px;
+    font-weight:400;
+    text-align: center;
+}
+
+#banner-div{
+width:100%;
+position:relative;
+margin-bottom:230px;
+}
+
+#banner-text{
+    position: absolute;
+    width:60%;
+    top:0;
+    right:370px;
+    /*height:500px;*/
+    border:1px solid white;
+    padding:30px;
+    margin:auto;
+    margin-top:70px;
+}
+
+#banner-image{
+    width:100%;
+    height:700px;
+}
+
+#left-section,#middle-section,#right-section{
+    color:black;
+    padding:20px;
+}
+
+#title{
+    display:flex;
+}
+
+#left-section{
+    display: flex;
+    width:25%;
+    align-items: center;
+
+}
+
+#middle-section{
+    display: flex;
+    width:60%;
+    align-items: center;
+}
+
+#middle-section-inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:0px 150px;
+}
+
+#home:hover,#about:hover,#profile:hover,#contact:hover,#services:hover{
+    background-color:#D5DBDB ;
+    color:black;
+    border-radius:10px;
+}
+
+#home,#about,#profile,#contact,#services{
+    font-family:Lora;
+    color:white;
+    font-weight: 300;
+    font-size:16px;
+    padding:25px;
+    margin:0px 5px;
+    cursor: pointer;
+}
+
+#right-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width:15%;
+}
+
+#get-started{
+    font-family:Lora;
+    border: 1px solid gray;
+    color:white;
+    font-weight: 300;
+    width:100px;
+    text-align: center;
+    padding:20px;
+    cursor: pointer;
+}
+
+#get-started:hover{
+    background-color:#D5DBDB ;
+    color:black;
+    border-radius: 7px;
+}
+
+#get-started:active{
+ transform: scale(0.9);
+ transform: 0.15s;
+}
+
+#icon-three{
+    width:35px;
+    cursor: pointer;
+}
+
+#text-banner{
+    font-family: Lora;
+    text-align: center;
+    line-height:50px;
+    font-size:35px;
+    color:white;
+    margin-bottom:270px;
+}
+
+#coffee{
+    color:rgb(226, 210, 118);
+}
+
+#buttons{
+    border:1px solid red;
+    width:60%;
+    margin:auto;
+    height:300px;
+}
+
+#button-one,#button-two{
+    width:25%;
+    padding:20px;
+    display: inline-block;
+    font-size:20px;
+    background-color:#D5DBDB;
+    color:black;
+    border-radius:50px;
+    cursor: pointer;
+    border:none;
+}
+
+#button-one:hover,#button-two:hover{
+    opacity:0.6;
+}
+
+#button-one:active,#button-two:active{
+    transform: scale(0.9);
+    transition: 0.15s;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+}
+
+#custom{
+    font-size:50px;
+    font-weight: 300;
+}
+#customers-review{
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    margin:auto;
+    margin-bottom:100px;
+}
+
+#review1,#review2,#review3,#review4,#review5{
+    position:relative;
+    width:300px;
+}
+
+#c1,#c2,#c3,#c4,#c5{
+    width:100%;
+    margin-bottom:30px;
+}
+
+#s{
+color:rgb(226, 210, 118);
+font-weight:300;
+}
+
+#circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50px;
+    background-color: white;;
+    height:50px;
+    width:50px;
+    position: absolute;
+    bottom:0;
+    top:290px;
+    right:130px;
+    cursor: pointer;
+}
+
+#circle:hover{
+    background-color: #D5DBDB;
+}
+
+#plus{
+    width:55px;
+    cursor: pointer;
+}
+
+h4{
+    font-family: Lora;
+    font-weight: 400;
+    line-height:20px;
+}
+
+#review{
+    width:15%;
+}
+
+#star{
+    width:35px;
+}
+
